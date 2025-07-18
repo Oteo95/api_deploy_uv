@@ -4,3 +4,4 @@ uvicorn
 langchain
 langchain-core
 python-dotenv
+langchain-openai
