@@ -44,4 +44,4 @@ def health():
 def translation(message: UserMessage):
     handler = OpenAIHandler()
     answer = handler.translate(message.user_message,  message.language )
-    return answer
+    return {"response": answer, "version": "0.0.2"}
