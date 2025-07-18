@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from src.openai_handler import OpenAIHandler
 from pydantic import BaseModel
 from langchain_openai import OpenAI
 from langchain_core.prompts import PromptTemplate
